@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-require('dotenv').config();
+require('dotenv').config({path:__dirname+'/.env'});
 const cors = require('cors')
 
 const quizRoutes = require('./router/quiz');
