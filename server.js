@@ -6,7 +6,7 @@ const cors = require('cors')
 const quizRoutes = require('./router/quiz');
 const articleRoutes = require('./router/article');
 
-dotenv.config({ path: '/.env' });
+dotenv.config({ path: './.env' });
 
 const app = express(); 
 
